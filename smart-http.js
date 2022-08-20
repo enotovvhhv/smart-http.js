@@ -1,9 +1,10 @@
-// Optimized http flood by @expodius //
+// smart-http.js edited by M0NL3<< //
 
 
-//<url> <proxy_file> <mode (http/socket)> <time> <rps> <cache bypass (True/False)
-//  Optimized http flood
+// example:
+// node smart-http.js (url) (proxy) (mode (http/socket)) (time) (rps) (cache bypass True/False)
 //
+
 const request = require('request');
 const fs = require('fs');
 const UserAgent = require('user-agents');
